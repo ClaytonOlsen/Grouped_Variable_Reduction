@@ -1,4 +1,4 @@
-\title{Model selection and estimation in regression with grouped variables}
+# Model selection and estimation in regression with grouped variables
 
 Sometimes, we have variables that seem linked in structure. In these models, we can express these linked variables as a group of input variables. The most common example of this is with multi-factor analysis of variance (ANOVA) models, where a factor with several levels will be expressed through multiple dummy variables. We would aim to select the important variables and interactions necessary for accurate prediction. Also in additive models, we often have polynomial and non-parametric variables. In these models, we would select important groups of basis functions. In these situations, variable selection generally amounts to the selection of important factors, not just the individual input variables. It is useful to group input variables of the same factor for eventual analysis in these situations.
 
